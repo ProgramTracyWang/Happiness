@@ -15,6 +15,7 @@
 		B12BCA851AAD79720050F2E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12BCA841AAD79720050F2E1 /* Images.xcassets */; };
 		B12BCA881AAD79720050F2E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12BCA861AAD79720050F2E1 /* LaunchScreen.xib */; };
 		B12BCA941AAD79720050F2E1 /* HappinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12BCA931AAD79720050F2E1 /* HappinessTests.m */; };
+		B12BCA9F1AAD7BD60050F2E1 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B12BCA9E1AAD7BD60050F2E1 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		B12BCA8D1AAD79720050F2E1 /* HappinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12BCA921AAD79720050F2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12BCA931AAD79720050F2E1 /* HappinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessTests.m; sourceTree = "<group>"; };
+		B12BCA9D1AAD7BD60050F2E1 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		B12BCA9E1AAD7BD60050F2E1 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				B12BCA791AAD79720050F2E1 /* AppDelegate.m */,
 				B12BCA7E1AAD79720050F2E1 /* ViewController.h */,
 				B12BCA7F1AAD79720050F2E1 /* ViewController.m */,
+				B12BCA9D1AAD7BD60050F2E1 /* FaceView.h */,
+				B12BCA9E1AAD7BD60050F2E1 /* FaceView.m */,
 				B12BCA811AAD79720050F2E1 /* Main.storyboard */,
 				B12BCA841AAD79720050F2E1 /* Images.xcassets */,
 				B12BCA861AAD79720050F2E1 /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			files = (
 				B12BCA7A1AAD79720050F2E1 /* AppDelegate.m in Sources */,
 				B12BCA7D1AAD79720050F2E1 /* Happiness.xcdatamodeld in Sources */,
+				B12BCA9F1AAD7BD60050F2E1 /* FaceView.m in Sources */,
 				B12BCA801AAD79720050F2E1 /* ViewController.m in Sources */,
 				B12BCA771AAD79720050F2E1 /* main.m in Sources */,
 			);

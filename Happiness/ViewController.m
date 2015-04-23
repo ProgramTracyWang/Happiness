@@ -7,21 +7,31 @@
 //
 
 #import "ViewController.h"
+#import "FaceView.h"
 
 @interface ViewController ()
-
+@property (nonatomic,weak) IBOutlet FaceView *faceView;
 @end
 
 @implementation ViewController
+@synthesize happiness =_happiness;
+@synthesize faceView = _faceView;
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+-(void) setHappiness:(int)happiness
+{
+    _happiness = happiness;
+    [self.faceView setNeedsDisplay];
+}
+-(void) setFaceView:(FaceView *)faceView
+{
+    _faceView = faceView;
+    [self.faceView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.faceView action:@selector(pinch:)]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    return YES;
 }
+
 
 @end
